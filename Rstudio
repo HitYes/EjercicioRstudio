@@ -1,0 +1,30 @@
+
+R version 4.3.0 (2023-04-21 ucrt) -- "Already Tomorrow"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R es un software libre y viene sin GARANTIA ALGUNA.
+Usted puede redistribuirlo bajo ciertas circunstancias.
+Escriba 'license()' o 'licence()' para detalles de distribucion.
+
+R es un proyecto colaborativo con muchos contribuyentes.
+Escriba 'contributors()' para obtener más información y
+'citation()' para saber cómo citar R o paquetes de R en publicaciones.
+
+Escriba 'demo()' para demostraciones, 'help()' para el sistema on-line de ayuda,
+o 'help.start()' para abrir el sistema de ayuda HTML con su navegador.
+Escriba 'q()' para salir de R.
+
+[Previously saved workspace restored]
+
+> my_name <- readline(prompt="Ingrese su nombre: ")
+Ingrese su nombre: Hiram
+> my_age  <- readline(prompt="Ingrese su edad en años: ")
+Ingrese su edad en años: 22
+> my_age  <- as.integer(my_age)
+> print(paste("Hola,", my_name, 
++             "usted tiene", 
++             my_age, 
++             "años de edad."))
+[1] "Hola, Hiram usted tiene 22 años de edad."
+> 
